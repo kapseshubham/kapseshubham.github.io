@@ -61,7 +61,7 @@ const Home: React.FC<IProps> = ({ data }) => {
         <title>Shubham Kapse</title>
         <meta
           name="description"
-          content="Hey I am Shubham Kapse a Front-end Wev Devloper. I can build complex and mordern websites and web apps."
+          content="Hey I am Shubham Kapse a Front-end Web Devloper. I can build complex and mordern websites and web apps."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
