@@ -2,19 +2,19 @@ pipeline{
     agent any
     stages {
         stage("install"){
-            step{
+            steps {
                 echo "installing dependencies..."
                 sh 'npm install --omit=dev'        
             }
         }
         stage("build"){
-            step{
+            steps {
                 echo "building project..."
                 sh "npm run build"
             }
         }
         stage("run prod"){
-            step{
+            steps {
                 echo "running production..."
                 sh "npm run start"
             }
