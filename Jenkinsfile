@@ -5,7 +5,7 @@ pipeline{
         stage("install"){
             steps {
                 echo "installing dependencies..."
-                sh 'npm install --omit=dev'        
+                sh 'npm install'        
             }
         }
         stage("build"){
