@@ -14,11 +14,6 @@ pipeline{
                 sh "npm run build"
             }
         }
-        stage("run prod"){
-            steps {
-                echo "running production..."
-                sh "npm run start"
-            }
-        }
+      
     }
 }
